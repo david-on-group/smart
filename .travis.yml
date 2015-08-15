@@ -1,4 +1,9 @@
 language: html
 
+env:
+  global:
+    - REPO="david-on-group/smart"
+    - CI_HOME=`pwd`/$REPO
+    
 before_script:
   - bash travis.sh

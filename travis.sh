@@ -4,7 +4,7 @@ echo $CI_HOME
 ls -a
 mkdir _test
 cd _test
-git clone https://david-on:${t}@github.com/david-on-group/dummy.git
+git clone https://david-on:${t2}@github.com/david-on-group/dummy.git
 cd ..
 cp -r _test ujtest
 cd ujtest/dummy

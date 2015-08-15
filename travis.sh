@@ -2,6 +2,7 @@
 
 echo $CI_HOME
 mkdir $CI_HOME/_test
+mkdir _test
 ls -a
 cd $CI_HOME/_test
 ls -a

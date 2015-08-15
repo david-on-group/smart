@@ -8,5 +8,5 @@ env:
     - REPO="david-on-group/smart"
     - CI_HOME=`pwd`/$REPO
     
-before_script:
+after_success:
   - bash travis.sh

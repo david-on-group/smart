@@ -1,0 +1,4 @@
+language: html
+
+after_success:
+  - bash travis.sh

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo $t_name
 echo $CI_HOME
 ls -a
 mkdir _test

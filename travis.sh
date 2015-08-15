@@ -9,7 +9,7 @@ git clone https://david-on:$UTOKEN@github.com/david-on-group/dummy.git
 cd ..
 cp -r _test ujtest
 cd ujtest/dummy
-echo 'Hello, world.' >foo4.txt
+echo 'Hello, world.' >foo5.txt
 git add .
 git add -u .
 git commit -m "test"
